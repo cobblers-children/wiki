@@ -1,3 +1,11 @@
 <h2 id="title">Welcome to Ember.js</h2>
 
+<textarea class="markdown"></textarea>
+
 {{outlet}}
+
+<script type="application/javascript">
+    Ember.$(function () {
+        Ember.$('.markdown').markdownify();
+    });
+</script>

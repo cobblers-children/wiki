@@ -17,4 +17,15 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+
+app.import('bower_components/codemirror/lib/codemirror.css');
+app.import('bower_components/codemirror/lib/codemirror.js');
+app.import('bower_components/codemirror/addon/edit/continuelist.js');
+app.import('bower_components/codemirror/mode/markdown/markdown.js');
+app.import('bower_components/codemirror/mode/xml/xml.js');
+app.import('bower_components/marked/lib/marked.js');
+
+app.import('vendor/markdownify.css');
+app.import('vendor/markdownify.js');
+
 module.exports = app.toTree();
