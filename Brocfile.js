@@ -25,7 +25,7 @@ app.import('bower_components/codemirror/mode/markdown/markdown.js');
 app.import('bower_components/codemirror/mode/xml/xml.js');
 app.import('bower_components/marked/lib/marked.js');
 
-app.import('vendor/markdownify.css');
-app.import('vendor/markdownify.js');
+app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
+app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
 
 module.exports = app.toTree();
