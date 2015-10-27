@@ -28,7 +28,7 @@ module.exports = function(defaults) {
 
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
-
+  app.import('bower_components/commonmark/dist/commonmark.js');
 
   return app.toTree();
 };

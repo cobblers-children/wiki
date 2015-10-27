@@ -12,6 +12,7 @@
     "jquery": "2.1.1",
     "loader.js": "ember-cli/loader.js#3.2.1",
     "qunit": "~1.18.0",
-    "jquery.markdownify": "1.0.0"
+    "jquery.markdownify": "1.0.0",
+    "commonmark": "~0.22.0"
   }
 }
