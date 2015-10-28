@@ -36,7 +36,7 @@
     },
     { "id": "mint", "name": "Mint", "image": "assets/plants.svg#shrub"}
   ],
-  "species": [
+  "plants": [
     { "id": "shrub_unknown", "group": "unknown", "name": "unknown shrub"},
     { "id": "tree_unknown",  "group": "unknown", "name": "unknown tree"},
     { "id": "cane_unknown",  "group": "unknown", "name": "unknown tree"},

@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+    this.resource("plant", {
+        path: "/plant/:plant_id"
+    });
 });
 
 export default Router;
