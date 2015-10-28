@@ -42,7 +42,8 @@
     { "id": "cane_unknown",  "group": "unknown", "name": "unknown tree"},
 
     { "id": "aronia", "group": "aronia", "name": "Aronia"},
-    { "id": "blackberry_apache", "group": "blackberry", "name": "Apache thornless blackberry"},
+    { "id": "blackberry_apache", "group": "blackberry", "name": "Apache thornless blackberry", 
+      "description": "*in progress*" },
     { "id": "blueberry_bluecrop", "group": "blueberry", "name": "Northland Blueberry"},
     { "id": "blueberry_chandler", "group": "blueberry", "name": "Chandler Blueberry"},
     { "id": "blueberry_misty", "group": "blueberry", "name": "Blueberry 'Misty'"},
