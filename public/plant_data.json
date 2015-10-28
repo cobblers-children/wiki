@@ -1,0 +1,102 @@
+{
+  "groups": [
+    { "id": "unknown", "name": "Unknown", "image": "assets/plants.svg#shrub",
+      "description": "This plant is missing a tag.  We could use help identifying it."
+    },
+
+    { "id": "aronia", "name": "Chokeberries", "image": "assets/plants.svg#shrub"},
+    { "id": "blueberry", "name": "Blueberries", "image": "assets/plants.svg#shrub"},
+    { "id": "currant", "name": "Currants", "image": "assets/plants.svg#shrub"},
+    { "id": "goji", "name": "Goji Berries", "image": "assets/plants.svg#shrub"},
+    { "id": "elaeagnus", "name": "Silverberries", "image": "assets/plants.svg#shrub"},
+    { "id": "seaberry", "name": "Seaberries", "image": "assets/plants.svg#shrub"},
+    { "id": "mahonia", "name": "Mahonia", "image": "assets/plants.svg#shrub",
+      "description": "Spiny, evergreen foliage, winter flowers.  The dark blue berries are edible, high in vitamin C."
+    },
+
+    { "id": "blackberry", "name": "Blackberries", "image": "assets/plants.svg#cane"},
+    { "id": "gooseberry", "name": "Gooseberries", "image": "assets/plants.svg#cane"},
+    { "id": "honeyberry", "name": "Honeyberries", "image": "assets/plants.svg#cane"},
+    { "id": "honeysuckle", "name": "Honeysuckle", "image": "assets/plants.svg#cane"},
+    { "id": "raspberry", "name": "Raspberries", "image": "assets/plants.svg#cane"},
+    { "id": "elderberry", "name": "Elderberries", "image": "assets/plant.svg#cane"},
+
+    { "id": "ceanothus", "name": "Ceanothus", "image": "assets/plants.svg#shrub",
+      "description": "Tiny, fragrant flowers in dense clusters. Preferred forage for many pollinator species."
+    },
+
+    { "id": "apple", "name": "Apples", "image": "assets/plants.svg#shrub"},
+    { "id": "pear", "name": "Pears", "image": "assets/plants.svg#shrub"},
+    { "id": "plum", "name": "Plums", "image": "assets/plants.svg#shrub"},
+    { "id": "walnut", "name": "Walnuts", "image": "assets/plants.svg#shrub"},
+    { "id": "corylus", "name": "Hazelnuts", "image": "assets/plants.svg#shrub"},
+
+    { "id": "borage", "name": "Borages", "image": "assets/plants.svg#cane",
+      "description": "Leaf hairs can cause skin irritation, itching or rashes in some individuals."
+    },
+    { "id": "mint", "name": "Mint", "image": "assets/plants.svg#shrub"}
+  ],
+  "species": [
+    { "id": "shrub_unknown", "group": "unknown", "name": "unknown shrub"},
+    { "id": "tree_unknown",  "group": "unknown", "name": "unknown tree"},
+    { "id": "cane_unknown",  "group": "unknown", "name": "unknown tree"},
+
+    { "id": "aronia", "group": "aronia", "name": "Aronia"},
+    { "id": "blackberry_apache", "group": "blackberry", "name": "Apache thornless blackberry"},
+    { "id": "blueberry_bluecrop", "group": "blueberry", "name": "Northland Blueberry"},
+    { "id": "blueberry_chandler", "group": "blueberry", "name": "Chandler Blueberry"},
+    { "id": "blueberry_misty", "group": "blueberry", "name": "Blueberry 'Misty'"},
+    { "id": "blueberry_northland", "group": "blueberry", "name": "Blueberry 'Northland'"},
+    { "id": "blueberry_olympia", "group": "blueberry", "name": "Olympia Blueberry"},
+    { "id": "blueberry_spartan", "group": "blueberry", "name": "Spartan Blueberry"},
+    { "id": "blueberry_unknown", "group": "blueberry", "name": "Blueberry",
+      "description": "Unlabelled blueberry plant"
+    },
+    { "id": "blueberry_sunshine", "group": "blueberry", "name": "Sunshine Blueberry"},
+    { "id": "currant_white_imperial", "group": "currant", "name": "White Imperial Currant"},
+    { "id": "currant_black_titania", "group": "currant", "name": "Titania Black Currant"},
+    { "id": "jostaberry", "group": "gooseberry", "name": "Jostaberry"},
+    { "id": "goji", "group": "goji", "name": "Goji berry"},
+    { "id": "goji_crimson", "group": "goji", "name": "Crimson Star Goji berry"},
+    { "id": "gooseberry_invicta", "group": "gooseberry", "name": "Invicta Gooseberry"},
+    { "id": "gooseberry_welcome", "group": "gooseberry", "name": "Welcome Gooseberry"},
+    { "id": "goumi_red_gem", "group": "elaeagnus", "ame": "Red Gem Goumi Berry"},
+    { "id": "honeyberry_blue_moon", "group": "honeyberry", "name": "Honeyberry 'Blue Moon'"},
+    { "id": "honeyberry_blue_pagoda", "group": "honeyberry", "name": "Honeyberry 'Blue Pagoda'"},
+    { "id": "honeyberry_blue_velvet", "group": "honeyberry", "name": "Honeyberry 'Blue Velvet'"},
+    { "id": "honeysuckle_blue_pacific", "group": "honeysuckle", "name": "Blue Pacific Honeysuckle"},
+    { "id": "honeysuckle_himalayan", "group": "honeysuckle", "name": "Himalayan Honeysuckle"},
+    { "id": "raspberry_golden", "group": "raspberry", "name": "Golden raspberry"},
+    { "id": "seaberry", "group": "seaberry", "name": "Seaberry"},
+    { "id": "seaberry_golden", "group": "seaberry", "name": "Golden Sweet Seaberry"},
+    { "id": "elderberry_samdal", "group": "elderberry", "name": "S Vigra 'Samdal'"},
+    { "id": "oregon_grape_low", "group": "mahonia", "name": "low Oregon grape"},
+
+    { "id": "ceanothus", "group": "ceanothus", "name": "California Lilac"},
+
+    { "id": "apple_a8502s", "group": "apple", "name": "Grafted Apple (A8502S)",
+      "description": "Grafted Apple Tree, Cox and Pristine"},
+    { "id": "apple_chehalis", "group": "apple", "name": "Chehalis Apple"},
+    { "id": "apple_king_edward", "group": "apple", "name": "King Edward VII Apple"},
+    { "id": "apple_pristine", "group": "apple", "name": "Pristine Apple"},
+    { "id": "pear_blakes_pride", "group": "pear", "name": "Pear 'Blake\\'s Pride'"},
+    { "id": "pear_highland", "group": "pear", "name": "Highland Pear"},
+    { "id": "pear_spalding", "group": "pear", "name": "Spalding Pear"},
+    { "id": "pear_yoinashi", "group": "pear", "name": "Asian Pear (Yoinashi)"},
+    { "id": "plum_grafted", "group": "plum", "name": "Grafted Plum (C3454)"},
+    { "id": "plum_italian", "group": "plum", "name": "Italian Plum"},
+    { "id": "plum_laxton_early", "group": "plum", "name": "Early Laxton Plum"},
+    { "id": "plum_methley", "group": "plum", "name": "Methley Plum"},
+    { "id": "plum_shiro", "group": "plum", "name": "Shiro Plum"},
+    { "id": "olive_autumn", "group": "elaeagnus", "name": "Autumn Olive"},
+
+    { "id": "walnut_butternut", "group": "walnut", "name": "Butternut tree"},
+    { "id": "walnut_heartnut", "group": "walnut", "name": "Heartnut tree"},
+    { "id": "corylus_unknown", "group": "corylus", "name": "Filbert",
+      "description": "Unlabeled Filbert (Hazelnut) plant"
+    },
+
+    { "id": "spearmint", "group": "mint", "name": "Spearmint"},
+    { "id": "comfrey", "group": "borage", "name": "Comfrey"}
+  ]
+}
