@@ -12,7 +12,8 @@ App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver: Resolver, 
-  ApplicationSerializer: DS.RESTSerializer
+  ApplicationSerializer: DS.RESTSerializer,
+  rootElement: '#rootElement'
 });
 
 Ember.Application.initializer({
