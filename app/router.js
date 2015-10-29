@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('editor');
   this.route('intro');
   this.route('faq');
+  this.route('contribute');
 });
 
 export default Router;
