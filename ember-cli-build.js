@@ -19,6 +19,8 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('bower_components/normalize-css/normalize.css');
+    
   app.import('bower_components/codemirror/lib/codemirror.css');
   app.import('bower_components/codemirror/lib/codemirror.js');
   app.import('bower_components/codemirror/addon/edit/continuelist.js');
@@ -28,6 +30,7 @@ module.exports = function(defaults) {
 
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
+    
   app.import('bower_components/commonmark/dist/commonmark.js');
 
   return app.toTree();
