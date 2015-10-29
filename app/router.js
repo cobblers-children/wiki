@@ -9,8 +9,10 @@ Router.map(function() {
   this.resource("plant", {
       path: "/plant/:plant_id"
   });
-    
+
   this.route('editor');
+  this.route('intro');
+  this.route('faq');
 });
 
 export default Router;
