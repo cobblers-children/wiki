@@ -11,8 +11,8 @@
         "Good pictures of plants are going to be one of the hardest things to come by.  If you have access to plants and a good eye, start taking pictures.  We'll need them soon, but it'll take some time before we can accept uploads.",
         "## Volunteer",
         "Nothing beats hands-on experience helping with an existing Food Forest Project.  In exchange for your time you will learn a lot about plants and help build something at the same time.  Find a local project, or one you can visit.",
-        "* United States",
-        "  * Seattle Washington:  [Beacon Food Forest](http://www.beaconfoodforest.org/)\n",
+        "#### United States",
+        "* Seattle Washington:  [Beacon Food Forest](http://www.beaconfoodforest.org/)\n",
         "Do you know of a project not listed here? [Contact us](https://github.com/jdmarshall/foodforest/issues/new)"
       ]
     },
@@ -21,7 +21,7 @@
       "name": "An Introduction",
       "description": "An Introduction",
       "body": [
-        "## Food Forests, Explained",
+        "## Food Forests Explained",
         "On this site, we hope to connect people who want to learn about plants with the people who understand them.  We'll",
         "use plain language, presented in easily digested pieces.  We hope when you're done that you will want to try growing",
         "your own. We want to help you with that, too.\n",
