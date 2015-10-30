@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource("article", {
+    path: "/article/:article_id"
+  });
+
   this.resource("plant", {
       path: "/plant/:plant_id"
   });
@@ -13,7 +17,6 @@ Router.map(function() {
   this.route('editor');
   this.route('intro');
   this.route('faq');
-  this.route('contribute');
 });
 
 export default Router;

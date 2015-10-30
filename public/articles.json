@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "id": "contribute",
+      "name": "How to Contribute",
+      "description": "How to Contribute",
+      "body": [
+        "## How Can You Help?",
+        "At this time we are not quite ready to accept help directly from the community. There are other ways you can help us all in the meantime.",
+        "## Pictures",
+        "Good pictures of plants are going to be one of the hardest things to come by.  If you have access to plants and a good eye, start taking pictures.  We'll need them soon, but it'll take some time before we can accept uploads.",
+        "## Volunteer",
+        "Nothing beats hands-on experience helping with an existing Food Forest Project.  In exchange for your time you will learn a lot about plants and help build something at the same time.  Find a local project, or one you can visit.",
+        "* United States",
+        "  * Seattle Washington:  [Beacon Food Forest](http://www.beaconfoodforest.org/)\n",
+        "Do you know of a project not listed here? [Contact us](https://github.com/jdmarshall/foodforest/issues/new)"
+      ]
+    }
+  ]
+}

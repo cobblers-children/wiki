@@ -25,7 +25,11 @@ Ember.Application.initializer({
 
         Ember.$.getJSON('/plant_data.json').then(function(plant_json) {
             store.pushPayload(plant_json);
-            application.advanceReadiness();
+
+            Ember.$.getJSON('/articles.json').then(function (articles) {
+                store.pushPayload(articles);
+                application.advanceReadiness();
+            });
         });
     }
 });
