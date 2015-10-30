@@ -15,15 +15,14 @@
     {{content-for 'head-footer'}}
   </head>
   <body>
-    {{content-for 'body'}}
 
-    <main id="rootElement">
-    </main>
+    {{content-for 'body'}}
 
     <script src="assets/vendor.js"></script>
     <script src="assets/wiki.js"></script>
 
-    {{content-for 'body-footer'}}
-
+    <footer>
+        {{content-for 'body-footer'}}
+    </footer>
   </body>
 </html>
