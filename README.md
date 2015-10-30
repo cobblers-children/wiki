@@ -12,6 +12,12 @@ There is a renaissance happening right now, of people trying to reconnect with N
 
 Permaculture is ultimately an extremely complex topic, but for a beginner it doesn't have to be that way.  We plan to explore information useful for beginners and those of intermediate skill at first, and expand into more esoteric topics as time and interest allows.
 
+### The input format has to be the simplest thing that could possibly work
+
+The information is going to come primarily from people who know permaculture.  Of the people I have met who are knowledgable, most are outdoorsy sorts, of fair
+computer literacy.  The few who are especially savvy are balanced out by a number who are just as equally averse.  We are choosing Markdown for this reason, and 
+in particular the CommonMark variant.  This will likely require some code contributions to the CommonMark community to achieve, but we are prepared for that.
+
 ### The data has to be machine accessible
 
 A wiki is a great place to learn, but it's not the only way to learn, and is not the best way for all people.  Interactive websites and applications can add different ways to benefit from the data in a plant database.  To do that a freeform wiki format won't suffice.  Several plant databases have conventions for page layout and structure that help humans find the information but are insufficient for partners to utilize the information completely. 
