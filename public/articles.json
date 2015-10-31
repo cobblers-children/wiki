@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "welcome",
+      "name": "Food Forest Info",
+      "description": "Food Forest Info",
+      "body": [
+        "## Welcome to Food Forest Info\n",
+        "First time here?  [Learn about us](/article/intro)\n",
+        "## How to help\n",
+        "If you like this site and want to help out, [we have some suggestions](/article/contribute)."
+      ]
+    },
+    {
       "id": "contribute",
       "name": "How to Contribute",
       "description": "How to Contribute",
