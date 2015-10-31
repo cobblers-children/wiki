@@ -8,13 +8,13 @@ header {
     
     color: #4c301c;
     background-color: #0daed3;
-}
 
-header a {
+  a {
     text-decoration: none;
     color: inherit;
-}
 
-header a:hover {
-    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
