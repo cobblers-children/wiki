@@ -1,4 +1,10 @@
-<header>{{#link-to 'index'}}Food Forest Info{{/link-to}}</header>
+<header>
+    <nav>
+        {{#link-to 'article' 'intro'}}About us{{/link-to}}
+    </nav>
+
+    {{#link-to 'index'}}Food Forest Info{{/link-to}}
+</header>
 
 <main id="rootElement">
     {{outlet}}
