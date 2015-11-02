@@ -4,9 +4,10 @@
       "id": "welcome",
       "name": "Food Forest Info",
       "description": "Food Forest Info",
+      "image": "/chive.png",
       "body": [
         "## Welcome to Food Forest Info\n",
-        "First time here?  [Learn about us](/article/intro)\n",
+        "First time here?  [Learn about us](/article/intro) \n",
         "## Get Involved\n",
         "If you like this site and want to help out, [we have some suggestions](/article/contribute)."
       ]
