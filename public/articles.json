@@ -16,6 +16,7 @@
       "id": "contribute",
       "name": "How to Contribute",
       "description": "How to Contribute",
+      "image": "/shovel.png",
       "body": [
         "## How Can You Help?",
         "We are not yet ready to accept much direct help from the community.  If you can code, then see us on [GitHub](https://github.com/jdmarshall/foodforest). There are other ways you can help us all in the meantime.",
