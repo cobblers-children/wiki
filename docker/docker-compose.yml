@@ -1,0 +1,17 @@
+ember:
+  build: ember
+  ports:
+    - "80"
+  volumes:  
+    - ../dist:/usr/share/nginx/foodforest:ro
+api:
+  image: food-forest/api:latest
+  ports:
+    - "8080"
+web:
+  build: web
+  ports:
+    - "8000:80"
+  links:
+    - api
+    - ember
