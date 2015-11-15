@@ -11,9 +11,13 @@ Router.map(function() {
   });
 
   this.resource("plant", {
-      path: "/plant/:plant_id"
+    path: "/plant/:plant_id"
   });
     
+  this.resource("group", {
+    path: "/group/:group_id"
+  });
+
   this.route('editor');
 });
 
