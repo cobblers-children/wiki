@@ -12,6 +12,10 @@ server {
     }
 
     location / {
-        proxy_pass http://ember:80/;
+        root /usr/share/nginx/foodforest;
+        
+        # Make Ember happy w/o FastBoot
+        # This makes browser reload work on any url within the ember application
+        try_files $uri $uri/ /index.html?/$request_uri;
     }
 }
