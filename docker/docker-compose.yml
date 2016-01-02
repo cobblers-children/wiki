@@ -1,7 +1,20 @@
+postgres_data:
+  image: postgres:9.4.5
+  entrypoint: /bin/bash
+postgres:
+  image: postgres:9.4.5
+  environment:
+    - POSTGRES_DB=wiki
+    - POSTGRES_PASSWORD=changeit
+    - POSTGRES_USER=postgres
+  volumes_from:
+    - postgres_data
 api:
   image: food-forest/api:latest
   ports:
     - "8080"
+  links:
+    - postgres
 web:
   build: web
   ports:
