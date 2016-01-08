@@ -19,4 +19,7 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+
+# archives
+*.tar
 *.tgz
