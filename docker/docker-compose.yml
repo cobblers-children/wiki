@@ -22,4 +22,4 @@ web:
   links:
     - api
   volumes:
-    - ../dist:/usr/share/nginx/foodforest:ro
+    - ../web/dist:/usr/share/nginx/foodforest:ro
