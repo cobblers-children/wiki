@@ -12,14 +12,24 @@ postgres:
 api:
   image: food-forest/api:latest
   expose:
-    - "8080"
+    - 8080
   links:
     - postgres
+api2:
+  image: node:5.4.1
+  expose:
+    - 3000
+  links:
+   - postgres
+  volumes:
+    - ./backend:/root/backend
+  entrypoint: "/root/backend/bin/www"
 web:
   build: nginx
   ports:
-    - "8000:80"
+    - 8000:80
   links:
     - api
+    - api2
   volumes:
     - ./web/dist:/usr/share/nginx/foodforest:ro
