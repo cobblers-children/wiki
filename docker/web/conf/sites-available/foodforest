@@ -2,8 +2,6 @@ server {
     proxy_redirect off;
     proxy_buffering off;
     proxy_set_header        Host            $host;
-    proxy_set_header        X-Real-IP       $remote_addr;
-    proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
 
     proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
 
@@ -13,7 +11,7 @@ server {
 
     location / {
         root /usr/share/nginx/foodforest;
-        
+
         # Make Ember happy w/o FastBoot
         # This makes browser reload work on any url within the ember application
         try_files $uri $uri/ /index.html?/$request_uri;

@@ -11,7 +11,7 @@ postgres:
     - postgres_data
 api:
   image: food-forest/api:latest
-  ports:
+  expose:
     - "8080"
   links:
     - postgres
