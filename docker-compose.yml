@@ -16,10 +16,10 @@ api:
   links:
     - postgres
 web:
-  build: web
+  build: nginx
   ports:
     - "8000:80"
   links:
     - api
   volumes:
-    - ../web/dist:/usr/share/nginx/foodforest:ro
+    - ./web/dist:/usr/share/nginx/foodforest:ro
