@@ -28,5 +28,3 @@ web:
   links:
     - api
     - api2
-  volumes:
-    - ./web/dist:/usr/share/nginx/foodforest:ro
