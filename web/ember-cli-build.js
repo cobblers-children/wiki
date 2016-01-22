@@ -3,7 +3,9 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+      fingerprint: {
+          exclude: ['assets/images']
+      }
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -20,7 +22,7 @@ module.exports = function(defaults) {
   // along with the exports of each module as its value.
 
   app.import('bower_components/normalize-css/normalize.css');
-    
+
   app.import('bower_components/codemirror/lib/codemirror.css');
   app.import('bower_components/codemirror/lib/codemirror.js');
   app.import('bower_components/codemirror/addon/edit/continuelist.js');
@@ -30,7 +32,7 @@ module.exports = function(defaults) {
 
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
   app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
-    
+
   app.import('bower_components/commonmark/dist/commonmark.js');
 
   return app.toTree();
