@@ -16,16 +16,13 @@ api:
   links:
     - postgres
 api2:
-  image: node:5.4.1
+  build: backend
   expose:
     - 3000
   links:
    - postgres
-  volumes:
-    - ./backend:/root/backend
-  entrypoint: "/root/backend/bin/www"
 web:
-  build: nginx
+  build: web
   ports:
     - 8000:80
   links:

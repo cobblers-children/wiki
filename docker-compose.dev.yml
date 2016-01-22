@@ -1,0 +1,8 @@
+api2:
+  volumes:
+  - ./backend:/root/api
+web:
+  volumes:
+    - ./web/foo:/usr/share/nginx/beacon:ro
+    - ./web/nginx/nginx.conf:/etc/nginx/nginx.conf
+    - ./web/nginx/sites-available:/etc/nginx/sites-available
