@@ -6,6 +6,10 @@ server {
     proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
 
     location /api/ {
+        # Allow other websites to request data from the plant database
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+
         proxy_pass http://api:8080/;
     }
 
