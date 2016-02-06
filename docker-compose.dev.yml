@@ -1,4 +1,4 @@
-api2:
+api:
   volumes:
   - ./backend:/root/api
 web:

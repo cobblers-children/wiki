@@ -11,4 +11,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 3000
-CMD ["/root/api/bin/www"]
+CMD ["./server.js"]
