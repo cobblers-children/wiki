@@ -222,7 +222,7 @@ function preloadGroups(models) {
             body: ''
         },
         {
-            id: 'honeysuckly',
+            id: 'honeysuckle',
             name: 'Honeysuckle',
             description: '',
             body: ''
@@ -300,57 +300,330 @@ function preloadPlants(models) {
             group: 'aronia',
             description: '',
             body: ''
+        },
+        {
+            id: 'blackberry_apache',
+            name:'Apache thornless blackberry',
+            group: 'blackberry',
+            description: '',
+            body: '*in progress*'
+        },
+        {
+            id: 'blueberry_bluecrop',
+            name: 'Northland Blueberry',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_chandler',
+            name: 'Chandler Blueberry',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_misty',
+            name: 'Blueberry \'Misty\'',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_northland',
+            name: 'Blueberry \'Northland\'',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_olympia',
+            name: 'Olympia Blueberry',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_spartan',
+            name: 'Spartan Blueberry',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'blueberry_sunshine',
+            name: 'Sunshine Blueberry',
+            group: 'blueberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'currant_white_imperial',
+            name: 'White Imperial Currant',
+            group: 'currant',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'currant_black_titania',
+            name: 'Titania Black Currant',
+            group: 'currant',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'jostaberry',
+            name: 'Jostaberry',
+            group: 'gooseberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'goji',
+            name: 'Goji berry',
+            group: 'goji',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'goji_crimson',
+            name: 'Crimson Star Goji berry',
+            group: 'goji',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'gooseberry_invicta',
+            name: 'Invicta Gooseberry',
+            group: 'gooseberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'gooseberry_welcome',
+            name: 'Welcome Gooseberry',
+            group: 'gooseberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'goumi_red_gem',
+            name: 'Red Gem Goumi Berry',
+            group: 'elaeagnus',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'honeyberry_blue_moon',
+            name: 'Honeyberry \'Blue Moon\'',
+            group: 'honeyberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'honeyberry_blue_pagoda',
+            name: 'Honeyberry \'Blue Pagoda\'',
+            group: 'honeyberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'honeyberry_blue_velvet',
+            name: 'Honeyberry \'Blue Velvet\'',
+            group: 'honeyberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'honeysuckle_blue_pacific',
+            name: 'Blue Pacific Honeysuckle',
+            group: 'honeysuckle',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'honeysuckle_himalayan',
+            name: 'Himalayan Honeysuckle',
+            group: 'honeysuckle',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'raspberry_golden',
+            name: 'Golden raspberry',
+            group: 'raspberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'seaberry',
+            name: 'Seaberry',
+            group: 'seaberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'seaberry_golden',
+            name: 'Golden Sweet Seaberry',
+            group: 'seaberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'elderberry_samdal',
+            name: 'S Vigra \'Samdal\'',
+            group: 'elderberry',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'oregon_grape_low',
+            name: 'low Oregon grape',
+            group: 'mahonia',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'ceanothus',
+            name: 'California Lilac',
+            group: 'ceanothus',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'apple_a8502s',
+            name: 'Grafted Apple (A8502S)',
+            group: 'apple',
+            description: 'Grafted Apple Tree, Cox and Pristine',
+            body: ''
+        },
+        {
+            id: 'apple_chehalis',
+            name: 'Chehalis Apple',
+            group: 'apple',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'apple_king_edward',
+            name: 'King Edward VII Apple',
+            group: 'apple',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'apple_pristine',
+            name: 'Pristine Apple',
+            group: 'apple',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'pear_blakes_pride',
+            name: 'Pear \'Blake\'s Pride\'',
+            group: 'pear',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'pear_highland',
+            name: 'Highland Pear',
+            group: 'pear',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'pear_spalding',
+            name: 'Spalding Pear',
+            group: 'pear',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'pear_yoinashi',
+            name: 'Asian Pear (Yoinashi)',
+            group: 'pear',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'plum_grafted',
+            name: 'Grafted Plum (C3454)',
+            group: 'plum',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'plum_italian',
+            name: 'Italian Plum',
+            group: 'plum',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'plum_laxton_early',
+            name: 'Early Laxton Plum',
+            group: 'plum',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'plum_methley',
+            name: 'Methley Plum',
+            group: 'plum',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'plum_shiro',
+            name: 'Shiro Plum',
+            group: 'plum',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'olive_autumn',
+            name: 'Autumn Olive',
+            group: 'elaeagnus',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'walnut_butternut',
+            name: 'Butternut tree',
+            group: 'walnut',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'walnut_heartnut',
+            name: 'Heartnut tree',
+            group: 'walnut',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'corylus_unknown',
+            name: 'Filbert',
+            group: 'corylus',
+            description: 'Filbert (Hazelnut) plant',
+            body: ''
+        },
+        {
+            id: 'spearmint',
+            name: 'Spearmint',
+            group: 'mint',
+            description: '',
+            body: ''
+        },
+        {
+            id: 'comfrey',
+            name: 'Comfrey',
+            group: 'borage',
+            description: '',
+            body: ''
         }
     ];
-
-    /*
-    'blackberry_apache', 'Apache thornless blackberry', 'blackberry', null, '', '*in progress*'},{
-    'blueberry_bluecrop', 'Northland Blueberry', 'blueberry', null, '', ''},{
-    'blueberry_chandler', 'Chandler Blueberry', 'blueberry', null, '', ''},{
-    'blueberry_misty', 'Blueberry \'Misty\'', 'blueberry', null, '', ''},{
-    'blueberry_northland', 'Blueberry \'Northland\'', 'blueberry', null, '', ''},{
-    'blueberry_olympia', 'Olympia Blueberry', 'blueberry', null, '', ''},{
-    'blueberry_spartan', 'Spartan Blueberry', 'blueberry', null, '', ''},{
-    'blueberry_sunshine', 'Sunshine Blueberry', 'blueberry', null, '', ''},{
-    'currant_white_imperial', 'White Imperial Currant', 'currant', null, '', ''},{
-    'currant_black_titania', 'Titania Black Currant', 'currant', null, '', ''},{
-    'jostaberry', 'Jostaberry', 'gooseberry', null, '', ''},{
-    'goji', 'Goji berry', 'goji', null, '', ''},{
-    'goji_crimson', 'Crimson Star Goji berry', 'goji', null, '', ''},{
-    'gooseberry_invicta', 'Invicta Gooseberry', 'gooseberry', null, '', ''},{
-    'gooseberry_welcome', 'Welcome Gooseberry', 'gooseberry', null, '', ''},{
-    'goumi_red_gem', 'Red Gem Goumi Berry', 'elaeagnus', null, '', ''},{
-    'honeyberry_blue_moon', 'Honeyberry \'Blue Moon\'', 'honeyberry', null, '', ''},{
-    'honeyberry_blue_pagoda', 'Honeyberry \'Blue Pagoda\'', 'honeyberry', null, '', ''},{
-    'honeyberry_blue_velvet', 'Honeyberry \'Blue Velvet\'', 'honeyberry', null, '', ''},{
-    'honeysuckle_blue_pacific', 'Blue Pacific Honeysuckle', 'honeysuckle', null, '', ''},{
-    'honeysuckle_himalayan', 'Himalayan Honeysuckle', 'honeysuckle', null, '', ''},{
-    'raspberry_golden', 'Golden raspberry', 'raspberry', null, '', ''},{
-    'seaberry', 'Seaberry', 'seaberry', null, '', ''},{
-    'seaberry_golden', 'Golden Sweet Seaberry', 'seaberry', null, '', ''},{
-    'elderberry_samdal', 'S Vigra \'Samdal\'', 'elderberry', null, '', ''},{
-    'oregon_grape_low', 'low Oregon grape', 'mahonia', null, '', ''},{
-    'ceanothus', 'California Lilac', 'ceanothus', null, '', ''},{
-    'apple_a8502s', 'Grafted Apple (A8502S)', 'apple', null, 'Grafted Apple Tree, Cox and Pristine', ''},{
-    'apple_chehalis', 'Chehalis Apple', 'apple', null, '', ''},{
-    'apple_king_edward', 'King Edward VII Apple', 'apple', null, '', ''},{
-    'apple_pristine', 'Pristine Apple', 'apple', null, '', ''},{
-    'pear_blakes_pride', 'Pear \'Blake\'s Pride\'', 'pear', null, '', ''},{
-    'pear_highland', 'Highland Pear', 'pear', null, '', ''},{
-    'pear_spalding', 'Spalding Pear', 'pear', null, '', ''},{
-    'pear_yoinashi', 'Asian Pear (Yoinashi)', 'pear', null, '', ''},{
-    'plum_grafted', 'Grafted Plum (C3454)', 'plum', null, '', ''},{
-    'plum_italian', 'Italian Plum', 'plum', null, '', ''},{
-    'plum_laxton_early', 'Early Laxton Plum', 'plum', null, '', ''},{
-    'plum_methley', 'Methley Plum', 'plum', null, '', ''},{
-    'plum_shiro', 'Shiro Plum', 'plum', null, '', ''},{
-    'olive_autumn', 'Autumn Olive', 'elaeagnus', null, '', ''},{
-    'walnut_butternut', 'Butternut tree', 'walnut', null, '', ''},{
-    'walnut_heartnut', 'Heartnut tree', 'walnut', null, '', ''},{
-    'corylus_unknown', 'Filbert', 'corylus', null, 'Filbert (Hazelnut) plant', ''},{
-    'spearmint', 'Spearmint', 'mint', null, '', ''},{
-    'comfrey', 'Comfrey', 'borage', null, '', ''},{
-    */
 
     models.Plant.bulkCreate(plants);
 }
