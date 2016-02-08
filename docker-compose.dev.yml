@@ -1,6 +1,6 @@
-api:
-  volumes:
-  - ./backend:/root/api
+postgres:
+  ports:
+   - 5432:5432
 web:
   volumes:
     - ./web/foo:/usr/share/nginx/beacon:ro
