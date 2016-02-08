@@ -15,7 +15,7 @@ server.register(
                 knex: {
                     client: 'pg',
                     connection: {
-                        host: 'postgres',
+                        host: process.env.POSTGRES_HOST,
                         port: 5432,
                         database: 'wiki',
                         user: 'postgres',

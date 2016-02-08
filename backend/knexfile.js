@@ -5,7 +5,7 @@ module.exports = {
     development: {
         client: 'postgresql',
         connection: {
-            host: '192.168.99.100',
+            host: process.env.POSTGRES_HOST,
             database: 'wiki',
             user: 'postgres',
             password: process.env.POSTGRES_PASSWORD
@@ -22,7 +22,7 @@ module.exports = {
     staging: {
         client: 'postgresql',
         connection: {
-            host: 'postgres',
+            host: process.env.POSTGRES_HOST,
             database: 'wiki',
             user: 'postgres',
             password: process.env.POSTGRES_PASSWORD
@@ -39,7 +39,7 @@ module.exports = {
     production: {
         client: 'postgresql',
         connection: {
-            host: 'postgres',
+            host: process.env.POSTGRES_HOST,
             database: 'wiki',
             user: 'postgres',
             password: process.env.POSTGRES_PASSWORD
