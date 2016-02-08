@@ -1,5 +1,7 @@
 FROM node:5.4.1
 
+RUN apt-get update && apt-get install -y netcat
+
 RUN mkdir /root/api
 WORKDIR /root/api
 
