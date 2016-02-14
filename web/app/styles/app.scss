@@ -5,9 +5,9 @@ main {
 header {
     padding: 5px;
     font-size: .8rem;
-    
+
     color: #4c301c;
-    background-color: #cddec6;
+    background-color: #dfeeda;
 
     a {
         text-decoration: none;
@@ -17,13 +17,13 @@ header {
             text-decoration: underline;
         }
     }
-  
+
     nav {
       float: right;
       display: flex;
       justify-content: flex-end;
       flex-direction: row;
-      
+
       a {
         margin: 0px 6px;
       }
