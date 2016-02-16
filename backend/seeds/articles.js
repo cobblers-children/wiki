@@ -32,7 +32,7 @@ exports.seed = function (knex, Promise) {
                 '* Seattle, Washington:  [Beacon Food Forest](http://www.beaconfoodforest.org/)\n' +
                 '* Tacoma, Washington:  [Swan Creek Park Food Forest](http://swancreekparkfoodforest.weebly.com/get-involved.html)\n' +
                 '\n' +
-                'Do you know of a project not listed here? [Contact us](https://github.com/jdmarshall/foodforest/issues/new)'
+                'Do you know of a project not listed here? [Contact us](https://github.com/cobblers-children/wiki/issues/new?title=add%20this%20project)'
             },
             {
                 id: 'intro',
