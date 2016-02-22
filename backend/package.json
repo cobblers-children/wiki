@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "server.js",
+    "seed": "node_modules/.bin/knex seed:run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
