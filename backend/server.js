@@ -18,7 +18,7 @@ server.register(
                         host: process.env.POSTGRES_HOST,
                         port: 5432,
                         database: 'wiki',
-                        user: 'postgres',
+                        user: process.env.POSTGRES_USER,
                         password: process.env.POSTGRES_PASSWORD
                     },
                     //debug: true,

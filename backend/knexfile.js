@@ -7,7 +7,7 @@ module.exports = {
         connection: {
             host: process.env.POSTGRES_HOST,
             database: 'wiki',
-            user: 'postgres',
+            user: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD
         },
         pool: {
@@ -24,7 +24,7 @@ module.exports = {
         connection: {
             host: process.env.POSTGRES_HOST,
             database: 'wiki',
-            user: 'postgres',
+            user: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD
         },
         pool: {
@@ -41,7 +41,7 @@ module.exports = {
         connection: {
             host: process.env.POSTGRES_HOST,
             database: 'wiki',
-            user: 'postgres',
+            user: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD
         },
         pool: {
