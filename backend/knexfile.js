@@ -5,10 +5,10 @@ module.exports = {
     development: {
         client: 'postgresql',
         connection: {
-            host: process.env.POSTGRES_HOST,
+            host: 'postgres',
             database: 'wiki',
-            user: process.env.POSTGRES_USER,
-            password: process.env.POSTGRES_PASSWORD
+            user: 'wiki',
+            password: 'notasecret'
         },
         pool: {
             min: 2,
@@ -24,7 +24,7 @@ module.exports = {
         connection: {
             host: process.env.POSTGRES_HOST,
             database: 'wiki',
-            user: process.env.POSTGRES_USER,
+            user: 'wiki',
             password: process.env.POSTGRES_PASSWORD
         },
         pool: {
@@ -41,7 +41,7 @@ module.exports = {
         connection: {
             host: process.env.POSTGRES_HOST,
             database: 'wiki',
-            user: process.env.POSTGRES_USER,
+            user: 'wiki',
             password: process.env.POSTGRES_PASSWORD
         },
         pool: {
