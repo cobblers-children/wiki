@@ -1,6 +1,8 @@
-<aside>
-    <img src="{{model.image}}"/>
-</aside>
+{{#if model.image}}
+    <aside>
+        <img src="{{model.image}}"/>
+    </aside>
+{{/if}}
 
 <article>
     {{display model.body}}

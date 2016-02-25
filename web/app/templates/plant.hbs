@@ -1,10 +1,18 @@
-<h2>{{model.name}}</h2>
+{{#if model.image}}
+    <aside>
+        <img src="{{model.image}}"/>
+    </aside>
+{{/if}}
 
-{{display model.description}}
+<article>
+    <h2>{{model.name}}</h2>
 
-Kind:
-{{#link-to 'group' model.group}}{{model.group.name}}{{/link-to}}
+    {{display model.description}}
 
-{{display model.body}}
+    Kind:
+    {{#link-to 'group' model.group}}{{model.group.name}}{{/link-to}}
 
-{{outlet}}
+    {{display model.body}}
+
+    {{outlet}}
+</article>
