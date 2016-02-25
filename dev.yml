@@ -16,7 +16,7 @@ web:
   links:
     - api
   volumes:
-    - ./web/foo:/usr/share/nginx/beacon:ro
+    - ./web/dist:/usr/share/nginx/foodforest:ro
     - ./web/nginx/nginx.conf:/etc/nginx/nginx.conf
     - ./web/nginx/sites-available:/etc/nginx/sites-available
 postgres_data:
