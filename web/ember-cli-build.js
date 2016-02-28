@@ -1,3 +1,4 @@
+/*jshint node:true*/
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
@@ -23,15 +24,15 @@ module.exports = function(defaults) {
 
   app.import('bower_components/normalize-css/normalize.css');
 
-  app.import('bower_components/codemirror/lib/codemirror.css');
-  app.import('bower_components/codemirror/lib/codemirror.js');
-  app.import('bower_components/codemirror/addon/edit/continuelist.js');
-  app.import('bower_components/codemirror/mode/markdown/markdown.js');
-  app.import('bower_components/codemirror/mode/xml/xml.js');
-  app.import('bower_components/marked/lib/marked.js');
+  //app.import('bower_components/codemirror/lib/codemirror.css');
+  //app.import('bower_components/codemirror/lib/codemirror.js');
+  //app.import('bower_components/codemirror/addon/edit/continuelist.js');
+  //app.import('bower_components/codemirror/mode/markdown/markdown.js');
+  //app.import('bower_components/codemirror/mode/xml/xml.js');
+  //app.import('bower_components/marked/lib/marked.js');
 
-  app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
-  app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
+  //app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.css');
+  //app.import('bower_components/jquery.markdownify/lib/jquery.markdownify.js');
 
   app.import('bower_components/commonmark/dist/commonmark.js');
 
