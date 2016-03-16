@@ -1,3 +1,4 @@
+/* globals commonmark */
 import Ember from 'ember';
 
 var reader = new commonmark.Parser();
