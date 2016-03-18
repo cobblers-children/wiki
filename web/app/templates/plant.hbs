@@ -9,8 +9,9 @@
 
     {{display model.description}}
 
-    Kind:
-    {{#link-to 'group' model.group}}{{model.group.name}}{{/link-to}}
+    {{#each model.categories as | category | }}
+        Category: {{#link-to 'category' category}}{{category.name}}{{/link-to}}
+    {{/each}}
 
     {{display model.body}}
 

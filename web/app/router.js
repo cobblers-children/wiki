@@ -14,8 +14,8 @@ Router.map(function() {
         path: "/plant/:plant_id"
     });
 
-    this.resource("group", {
-        path: "/group/:group_id"
+    this.resource("category", {
+        path: "/category/:category_id"
     });
 
     this.route('editor');

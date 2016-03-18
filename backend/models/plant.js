@@ -4,8 +4,8 @@ module.exports = function (baseModel, bookshelf) {
     return baseModel.extend({
         tableName: 'plants',
         idAttribute: 'id',
-        group: function() {
-            return this.belongsTo(bookshelf.model('Group'), 'group');
+        categories: function() {
+            return this.belongsToMany(bookshelf.model('Category'), 'plant_categories', 'plant', 'category');
         }
     });
 };

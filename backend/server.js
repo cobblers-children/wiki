@@ -73,17 +73,29 @@ server.route([
     },
     {
         method: 'GET',
+        path: '/categories/{categoryID}',
+        handler: function (request, reply) {
+            console.log(request.params.categoryID);
+            
+            var Category = request.server.plugins.bookshelf.model('Category');
+
+            new Category({id: request.params.categoryID}).fetch().then((category) => {
+                reply({ category: category });
+            });
+        }
+    },
+    {
+        method: 'GET',
         path: '/plants/{plantID}',
         handler: function (request, reply) {
             var Plant = request.server.plugins.bookshelf.model('Plant');
-            var Group = request.server.plugins.bookshelf.model('Group');
 
-            new Plant({id: request.params.plantID}).fetch({withRelated: ['group']}).then((plant) => {
-                var groups = [];
+            new Plant({id: request.params.plantID}).fetch({withRelated: ['categories']}).then((plant) => {
+                var categories = plant.related('categories');
+                var plantData = plant.toJSON({ shallow: true });
+                plantData.categories = categories.map(function(category) { return category.id; });
 
-                groups.push(plant.related('group'));
-
-                reply({ plant: plant.toJSON({ shallow: true }), groups: groups});
+                reply({ plant: plantData, categories: plant.related('categories') });
             });
         }
     }

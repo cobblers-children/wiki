@@ -5,5 +5,5 @@ export default DS.Model.extend({
     description: DS.attr('string', { defaultValue: '' }),
     image: DS.attr('string'),
     body: DS.attr('string', { defaultValue: '' }),
-    group: DS.belongsTo('group', { defaultValue: 'unknown'})
+    categories: DS.hasMany('category', { defaultValue: []})
 });

@@ -28,5 +28,7 @@ postgres:
     - POSTGRES_DB=wiki
     - POSTGRES_USER=wiki
     - POSTGRES_PASSWORD=notasecret
+  volumes:
+    - ./backups:/root/backups
   volumes_from:
     - postgres_data
